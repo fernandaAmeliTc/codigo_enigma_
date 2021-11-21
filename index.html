@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="">
+    <link rel="stylesheet" href="asset/css/style.css">
 
     <title>Código Enigma</title>
 </head>
@@ -21,15 +22,15 @@
             <label for="offset">Clave secreta</label>
             <input id="offset" type="number" min="-100" max="100" placeholder="Ingresa tu clave secreta aquí" name="offset" step="1">
             <div class="btnGroup">
-            <button id="cipher" name="cipher" type="button">
-                <i class="fas fa-lock"></i> Cifrar
-            </button>
-            <button id="decipher" name="decipher" type="button">
-                <i class="fas fa-lock-open"></i> Descifrar
-            </button>
+                <button class="btn-mopv" id="cipher" name="cipher" type="button">
+                    <i class="fas fa-lock"></i> Cifrar
+                </button>
+                <button class="btn-mopv"id="decipher" name="decipher" type="button">
+                    <i class="fas fa-lock-open"></i> Descifrar
+                </button>
             </div>
         </div>
-        </section>
+        <!-- </section>
         <section class="modalContainer containerClose">
         <div id="messageResult" class="modal modalClose">
             <p id="close"><i class="fas fa-times"></i></p>
@@ -39,11 +40,14 @@
             <i class="fas fa-copy"></i> Copiar
             </button>
         </div>
-        </section>
+        </section> -->
     </main>
     <footer>
         <p>	&copy; Todos los derechos reservados</p>
     </footer>
-    <script src="index.js" type="module"></script>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="asset/js/index.js" type="module"></script>
 </body>
 </html>

@@ -72,7 +72,10 @@ main{
     justify-content: space-between;
     flex-flow: row wrap;
 }
-
+.btn-mopv{
+    width:49%;
+    margin: 1px;
+}
 
 label{
     font-weight: 400;
@@ -279,16 +282,16 @@ textarea#msgResult:focus-visible{
     }
 }
 @media (min-width: 400px){
-    button{
+    /* button{
         width: 49%;
-    }
+    } */
 }
 @media (min-width: 768px){
     #message{
         width: 70%;
     }
-    button{
+    /* button{
         width: 49%;
         font-size: 1rem;
-    }
+    } */
 }
