@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="">
-    <link rel="stylesheet" href="asset/css/style.css">
+    <!-- <link rel="stylesheet" href="asset/css/style.css"> -->
 
     <title>Código Enigma</title>
 </head>
@@ -17,18 +17,21 @@
         <section class="container">
         <div id="message">
             <label for="message">Mensaje secreto</label>
-            <textarea id="msg" name="textarea" maxlength="300" placeholder="Escribe o pega tu mensaje secreto aquí"></textarea>
-            <span id="counter">0/300</span>
+            <!-- input que pide el texto para cifrar -->
+            <textarea id="textarea_msj" name="textarea" maxlength="300" placeholder="Escribe o pega tu mensaje secreto aquí"></textarea>
+            <!-- span ´para saber la cantidad de palabras --> 
+            <span id="counter"><span id="contador_palabras">0</span>/300</span>
             <label for="offset">Clave secreta</label>
-            <input id="offset" type="number" min="-100" max="100" placeholder="Ingresa tu clave secreta aquí" name="offset" step="1">
+            <input id="msj" type="number" min="-100" max="100" placeholder="Ingresa tu clave secreta aquí" name="offset" step="1">
             <div class="btnGroup">
-                <button class="btn-mopv" id="cipher" name="cipher" type="button">
-                    <i class="fas fa-lock"></i> Cifrar
+                <button class="btn-mopv" id="btn-cambiar" name="cifrar" type="button"> Cifrar
                 </button>
                 <button class="btn-mopv"id="decipher" name="decipher" type="button">
                     <i class="fas fa-lock-open"></i> Descifrar
                 </button>
             </div>
+            <h3><span id="new_msj"></span></h3>
+            
         </div>
         <!-- </section>
         <section class="modalContainer containerClose">
@@ -41,6 +44,7 @@
             </button>
         </div>
         </section> -->
+        <!--  -->
     </main>
     <footer>
         <p>	&copy; Todos los derechos reservados</p>
