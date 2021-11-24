@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap');
 :root{
     --color-main: rgba(33, 23, 82);
     --color-secondary: rgba(20, 209, 143);
@@ -8,8 +8,9 @@
     --color-placeholder-secondary: #E9E4F0;
     --color-white: #fff;
     --color-gradient: linear-gradient( 91.7deg, rgba(50,25,79,0.75) -4.3%, rgba(33, 23, 82,0.75) 101.8% );
-    --font-main: 'Lobster';
-    --font-secondary: 'Roboto', sans-serif;
+    --font-main: 'Balsamiq Sans';
+    /* --font-main: 'Lobster'; */
+    --font-secondary: 'Source Code Pro',
 }
 
 *{
@@ -99,7 +100,7 @@ textarea{
     font-weight: 300;
     font-size: 1rem;
     height: 12rem;
-    background-color: transparent;
+    background-color: #0a0a0aea;
     border: 0.15rem solid var(--color-secondary);
     color: var(--color-white);
 }
