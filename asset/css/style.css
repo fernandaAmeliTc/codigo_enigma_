@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&display=swap');
 
 :root{
     --color-main: rgba(33, 23, 82);
@@ -7,7 +8,7 @@
     --color-placeholder-secondary: #E9E4F0;
     --color-white: #fff;
     --color-gradient: linear-gradient( 91.7deg, rgba(50,25,79,0.75) -4.3%, rgba(33, 23, 82,0.75) 101.8% );
-    --font-main: 'Comfortaa', cursive;
+    --font-main: 'Lobster';
     --font-secondary: 'Roboto', sans-serif;
 }
 
@@ -22,7 +23,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     font-family: var(--font-main);
-    background: var(--color-gradient), url(assets/letters.gif) no-repeat center center fixed;
+    background: url(../img/giphy.gif);
     background-size: cover;
     color: var(--color-white);
 }
@@ -295,3 +296,8 @@ textarea#msgResult:focus-visible{
         font-size: 1rem;
     } */
 }
+
+/* https://media3.giphy.com/media/10zxDv7Hv5RF9C/giphy.mp4?cid=790b7611a26521baafaa6bbe281a7b1cd31cafc7b965bcf8&amp;rid=giphy.mp4&amp;ct=g 
+*/
+
+/* <video alt="Codificación de la matriz GIF" src="https://media3.giphy.com/media/10zxDv7Hv5RF9C/giphy.mp4?cid=790b7611a26521baafaa6bbe281a7b1cd31cafc7b965bcf8&amp;rid=giphy.mp4&amp;ct=g" poster="https://media3.giphy.com/media/10zxDv7Hv5RF9C/giphy_s.gif?cid=790b7611a26521baafaa6bbe281a7b1cd31cafc7b965bcf8&amp;rid=giphy_s.gif&amp;ct=g" autoplay="" loop="" playsinline="" style="width: 500px; height: 208.333px; left: 0px; top: 0px;"></video> */
