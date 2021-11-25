@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap');
 :root{
-    --color-main: rgba(33, 23, 82);
-    --color-secondary: rgba(20, 209, 143);
+    --color-main: #000000;
+    --color-secondary: rgb(0, 54, 170);
     --color-placeholder-main: #D3CCE3;
-    --color-placeholder-secondary: #E9E4F0;
-    --color-white: #fff;
-    --color-gradient: linear-gradient( 91.7deg, rgba(50,25,79,0.75) -4.3%, rgba(33, 23, 82,0.75) 101.8% );
+    --color-placeholder-secondary: #fdfdfd;
+    --color-white: rgb(255, 255, 255);
+    --color-gradient: linear-gradient( 91.7deg, rgba(28, 34, 70, 0) -4.3%, rgba(143, 25, 240, 0.103) 101.8% );
     --font-main: 'Balsamiq Sans';
     /* --font-main: 'Lobster'; */
     --font-secondary: 'Source Code Pro',
@@ -18,19 +18,23 @@
 }
 
 body{
+    background-position: center;/* 👉para centrar la img*/
+    background-repeat: no-repeat;/*👉 sirve para que no se repita la img en caso no entre*/
+    background-size: cover;/*👉sirve para que entre en toda el espacio de la cja*/
+    background-attachment: fixed; 
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-family: var(--font-main);
-    background: url(../img/giphy.gif);
+    background:var(--color-gradient) ,url(../img/fondo.gif);
     background-size: cover;
     color: var(--color-white);
 }
 
 header, footer{
-    padding: 0.5rem 1rem;
+    padding: 0.1rem 1rem;
     background-color: var(--color-main);
 }
 
@@ -80,13 +84,14 @@ main{
 }
 
 label{
-    font-weight: 400;
+    font-size: 1.3rem;
+    font-weight: 800;
     margin-bottom: 0.5rem;
     font-family: var(--font-main);
 }
 
 span{
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     text-align: end;
@@ -100,14 +105,15 @@ textarea{
     font-weight: 300;
     font-size: 1rem;
     height: 12rem;
-    background-color: #0a0a0aea;
-    border: 0.15rem solid var(--color-secondary);
+    background-color: transparent;
+    border: var(--color-secondary) solid 2px;
+    box-shadow: 0 0 0.9rem var(--color-secondary);
     color: var(--color-white);
 }
 
 textarea:focus-visible{
     outline: none;
-    box-shadow: 0 0 0.5rem var(--color-secondary);
+    box-shadow: 0 0 1rem var(--color-secondary);
 }
 
 textarea::-webkit-scrollbar {
@@ -134,7 +140,7 @@ textarea::placeholder{
 input[type="number"] {
     font-family: var(--font-secondary);
     font-weight: 300;
-    font-size: 1rem;
+    font-size:1rem;
     text-align: center;
     color: var(--color-white);
     background-color: transparent;
@@ -158,7 +164,7 @@ input[type="number"]:focus-visible{
 button{
     font-family: var(--font-main);
     font-weight: 700;
-    font-size: 0.75rem;
+    font-size: 1rem;
     cursor: pointer;
     padding: 1rem 1rem;
     border-radius: 10px;
@@ -299,6 +305,6 @@ textarea#msgResult:focus-visible{
 }
 
 /* https://media3.giphy.com/media/10zxDv7Hv5RF9C/giphy.mp4?cid=790b7611a26521baafaa6bbe281a7b1cd31cafc7b965bcf8&amp;rid=giphy.mp4&amp;ct=g 
-*/
+
 
 /* <video alt="Codificación de la matriz GIF" src="https://media3.giphy.com/media/10zxDv7Hv5RF9C/giphy.mp4?cid=790b7611a26521baafaa6bbe281a7b1cd31cafc7b965bcf8&amp;rid=giphy.mp4&amp;ct=g" poster="https://media3.giphy.com/media/10zxDv7Hv5RF9C/giphy_s.gif?cid=790b7611a26521baafaa6bbe281a7b1cd31cafc7b965bcf8&amp;rid=giphy_s.gif&amp;ct=g" autoplay="" loop="" playsinline="" style="width: 500px; height: 208.333px; left: 0px; top: 0px;"></video> */
