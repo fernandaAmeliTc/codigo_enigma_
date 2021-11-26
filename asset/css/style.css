@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Source+Code+Pro:wght@200;300;400;500;600;700;900&display=swap');
 :root{
     --color-main: #000000;
-    --color-secondary: rgb(0, 54, 170);
+    --color-secondary: rgb(0, 81, 255);
     --color-placeholder-main: #D3CCE3;
     --color-placeholder-secondary: #fdfdfd;
     --color-white: rgb(255, 255, 255);
-    --color-gradient: linear-gradient( 91.7deg, rgba(28, 34, 70, 0) -4.3%, rgba(143, 25, 240, 0.103) 101.8% );
+    --color-gradient: linear-gradient( 91.7deg, rgba(2, 2, 2, 0.568) -4.3%, rgba(17, 16, 17, 0.438).8% );
     --font-main: 'Balsamiq Sans';
     /* --font-main: 'Lobster'; */
     --font-secondary: 'Source Code Pro',
@@ -16,6 +16,7 @@
 *{
     box-sizing: border-box;
 }
+
 
 body{
     background-position: center;/* 👉para centrar la img*/
@@ -79,17 +80,33 @@ main{
     flex-flow: row wrap;
 }
 .btn-mopv{
-    width:49%;
-    margin: 1px;
+    width:25%;
+    margin: 5px;
 }
-
+.input_enviar{
+    width: 80%;
+    padding: 10px;
+}
 label{
     font-size: 1.3rem;
     font-weight: 800;
     margin-bottom: 0.5rem;
     font-family: var(--font-main);
 }
-
+.enviar_POST{
+    text-align: center;
+    color: var(--color-secondary);
+    width: 60%;
+    display: none;
+    margin: auto ;
+    background-color: rgb(255, 255, 255);
+}
+.enviar_POST input {
+    padding: 5px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
 span{
     font-size: 1.3rem;
     margin-top: 0.5rem;
