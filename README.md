@@ -1,7 +1,7 @@
 # Codigo Enigma
-El proyecto fue realizado para una mejor **comunicación policial** segura e incriptada, alterando el texto, números o contenido de los mensajes ingresados con el fin de hacerlos ininteligibles a receptores no autorizados.
+El proyecto fue realizado para una mejor **comunicación policial** segura e incriptada, alterando el texto, o contenido de los mensajes ingresados con el fin de hacerlos ininteligibles a receptores no autorizados.
 
-Brindando la solución a diversos problemas manifestados en la policia, como:
+El cual se aplicara a informes o comunicaciones de especialísimo interés para la policía y cuya divulgación puede resultar perjudicial o peligrosa, el texto ingresado solo podrá ser descifrado por la policía,para mayor seguridad ante robo de datos de información de suma importancia, ya que esta no será entendible para el usuario que obtenga la información.
 
 1. Comunicacion insegura
 2. Robo de datos o información confidencial
