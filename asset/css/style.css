@@ -84,7 +84,7 @@ main{
     margin: 5px;
 }
 .input_enviar{
-    width: 80%;
+    width: 90%;
     padding: 10px;
 }
 label{
@@ -93,14 +93,7 @@ label{
     margin-bottom: 0.5rem;
     font-family: var(--font-main);
 }
-.enviar_POST{
-    text-align: center;
-    color: var(--color-secondary);
-    width: 60%;
-    display: none;
-    margin: auto ;
-    background-color: rgb(255, 255, 255);
-}
+
 .enviar_POST input {
     padding: 5px;
     display: block;

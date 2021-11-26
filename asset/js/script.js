@@ -1,7 +1,7 @@
 // alerta inicial
 Swal.fire({
     title:"¡¡¡Bienvenidos a el codigo enigma!!!",
-    text:"Lo que coloques en 'el campo de texto' sera encriptado al precionar cifrar y si quieres que vuelva ha estar normal presionas desifrar",
+    text:"Este es una pagina de comunicacion entre policias cifrando el codigo para mas seguridad , recuerda que Lo que coloques en 'el campo de texto' sera encriptado al precionar cifrar y si quieres que vuelva ha estar normal presionas desifrar",
 	timer:"22000",
     timerProgressBar:true,
     confirmButtonColor:'rgb(0, 81, 255)',
@@ -44,7 +44,9 @@ document.getElementById("btn-cifrar").addEventListener("click",function(){
         title:"¡¡¡El codigo Cifrado  es!!!",
         timer:"22000",
         html:'<h3><span id="new_msj"></span></h3>',
+        imageUrl:"https://66.media.tumblr.com/67c0fcc1c47a59567d807f5937a92a07/tumblr_pr2nufmCcf1vmiunio1_540.gif",
         timerProgressBar:true,
+        imageWidth:"500px",
         confirmButtonColor:'rgb(0, 81, 255)',
         });}
     document.getElementById("new_msj").innerHTML = nuevoMsj
@@ -82,8 +84,8 @@ document.getElementById("btn-decifrar").addEventListener("click",function(){
         html:'<h3><span id="new_msj"></span></h3>',
         timerProgressBar:true,
         confirmButtonColor:'rgb(0, 81, 255)',
-        imageUrl:"https://64.media.tumblr.com/0156c96ca898b2061d30b6a34f955e0b/tumblr_psdsr01E1J1t0lt8go1_540.gifv",
-        imageWidth:"500px",
+        imageUrl:"https://64.media.tumblr.com/ed4cb413756680d0bb40e43d3c87cb7c/tumblr_pt39znI0V21vgzd4so1_r1_400.gifv",
+        imageWidth:"250px",
         width:"45%",
         });
 
@@ -92,7 +94,7 @@ document.getElementById("btn-decifrar").addEventListener("click",function(){
     }else{
         Swal.fire({
             title:"¡¡¡HUBO UN FALLO ( ´･.･)ﾉ(._.`)!!!",
-            text:"Recuerda que si quieres el codigo cifrado antes debes colocar la clave secreta que no debe ser mayor a 24",
+            text:"Recuerda que si quieres el codigo cifrado antes debes colocar la clave secreta que no debe ser mayor a 24 (⊙_⊙;)",
             timerProgressBar:true,
             confirmButtonColor:'rgb(0, 81, 255)',
             imageUrl:"https://64.media.tumblr.com/0156c96ca898b2061d30b6a34f955e0b/tumblr_psdsr01E1J1t0lt8go1_540.gifv",
@@ -106,14 +108,14 @@ document.getElementById("btn-decifrar").addEventListener("click",function(){
             Swal.fire({
             title:"¡ENVIAR!",
             timer:"22000",
-            html:'<input type="text" required placeholder="Ingrese el nombre a quien quiera enviarlo">',
+            html:'<p>En el campo de texto colocar el nombre de a quien se le van a mandar el mensaje ╰(*°▽°*)╯"</p><input type="text" class="input_enviar" required placeholder="Ingrese el nombre a quien quiera enviarlo">',
             timerProgressBar:true,
             confirmButtonColor:'rgb(0, 81, 255)',
             width:"45%",
             });}
             else{
                 Swal.fire({
-                    title:"¡¡¡HUBO UN FALLO ( ´･.･)ﾉ(._.`)!!!",
+                    title:"¡ FALLO (╯°□°）╯︵ ╰ !!!",
                     text:"No hay mensaje para enviar",
                     timerProgressBar:true,
                     confirmButtonColor:'rgb(0, 81, 255)',
