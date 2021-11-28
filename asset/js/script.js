@@ -1,7 +1,7 @@
 // alerta inicial
 Swal.fire({
     title:"¡¡¡Bienvenidos a el codigo enigma!!!",
-    text:"Este es una pagina de comunicacion entre policias cifrando el codigo para mas seguridad , recuerda que Lo que coloques en 'el campo de texto' sera encriptado al precionar cifrar y si quieres que vuelva ha estar normal presionas desifrar",
+    text:"Este es una pagina de comunicacion entre policias cifrando el codigo para mas seguridad , recuerda que Lo que coloques en 'el campo de texto' sera encriptado al precionar cifrar y si quieres que vuelva ha estar normal presionas decifrar",
 	timer:"22000",
     timerProgressBar:true,
     confirmButtonColor:'rgb(0, 81, 255)',
