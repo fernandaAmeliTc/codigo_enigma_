@@ -7,7 +7,7 @@ Swal.fire({
     confirmButtonColor:'rgb(0, 81, 255)',
     imageUrl:"https://c.tenor.com/Dq8XFeK86X4AAAAC/sarazanmai-anime.gif",
     imageWidth:"500px",
-    width:"45%",
+    
     });
 // contador de palabras contador_palabras !Evento input!
 document.getElementById("textarea_msj").addEventListener("input",()=>{
@@ -58,7 +58,7 @@ document.getElementById("btn-cifrar").addEventListener("click",function(){
             confirmButtonColor:'rgb(0, 81, 255)',
             imageUrl:"https://64.media.tumblr.com/dce3d71dd5dc64c115c5e96841219518/tumblr_pt257xH2FS1wj1nn0o1_250.gifv",
             imageWidth:"500px",
-            width:"45%",
+            
             });}
     
     
@@ -86,7 +86,7 @@ document.getElementById("btn-decifrar").addEventListener("click",function(){
         confirmButtonColor:'rgb(0, 81, 255)',
         imageUrl:"https://64.media.tumblr.com/ed4cb413756680d0bb40e43d3c87cb7c/tumblr_pt39znI0V21vgzd4so1_r1_400.gifv",
         imageWidth:"250px",
-        width:"45%",
+        
         });
 
     document.getElementById("new_msj").innerHTML = nuevoMsj
@@ -99,7 +99,7 @@ document.getElementById("btn-decifrar").addEventListener("click",function(){
             confirmButtonColor:'rgb(0, 81, 255)',
             imageUrl:"https://64.media.tumblr.com/0156c96ca898b2061d30b6a34f955e0b/tumblr_psdsr01E1J1t0lt8go1_540.gifv",
             imageWidth:"500px",
-            width:"45%", })} })
+             })} })
 
 // BOTON ENVIAR
     document.getElementById("btn-enviar").addEventListener("click",function(){
@@ -111,7 +111,7 @@ document.getElementById("btn-decifrar").addEventListener("click",function(){
             html:'<p>En el campo de texto colocar el nombre de a quien se le van a mandar el mensaje ╰(*°▽°*)╯"</p><input type="text" class="input_enviar" required placeholder="Ingrese el nombre a quien quiera enviarlo">',
             timerProgressBar:true,
             confirmButtonColor:'rgb(0, 81, 255)',
-            width:"45%",
+            
             });}
             else{
                 Swal.fire({
@@ -121,7 +121,7 @@ document.getElementById("btn-decifrar").addEventListener("click",function(){
                     confirmButtonColor:'rgb(0, 81, 255)',
                     imageUrl:"https://i.pinimg.com/originals/d2/19/08/d219082bd445b9e45043f583a339e208.gif",
                     imageWidth:"500px",
-                    width:"45%", })}
+                     })}
 
 
     })
