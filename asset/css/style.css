@@ -194,7 +194,10 @@ button:hover{
     background-color: var(--color-secondary);
     box-shadow: 0 0 0.5rem var(--color-secondary);
 }
-
+.footer_{
+    text-align: center;
+    font-size: 10px;
+}
 button#copy{
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;

@@ -108,10 +108,11 @@ document.getElementById("btn-decifrar").addEventListener("click",function(){
             Swal.fire({
             title:"¡ENVIAR!",
             timer:"22000",
-            html:'<p>En el campo de texto colocar el nombre de a quien se le van a mandar el mensaje ╰(*°▽°*)╯"</p><input type="text" class="input_enviar" required placeholder="Ingrese el nombre a quien quiera enviarlo">',
+            html:'<p>En el campo de texto colocar el nombre de a quien se le van a mandar el mensaje ╰(*°▽°*)╯"</p><input type="email" class="input_enviar" required placeholder="Ingrese el nombre a quien quiera enviarlo">',
             timerProgressBar:true,
+            confirmButtonText:"enviar",
             confirmButtonColor:'rgb(0, 81, 255)',
-            
+            footer:'<span class="footer_">una vez coloques el email y presiones "enviar" tu mensaje sera enviado</span>'
             });}
             else{
                 Swal.fire({
